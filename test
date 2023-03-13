@@ -1,0 +1,34 @@
+//April
+this.$nuxt.$store.state.student.students.filter(student=>{
+
+if(student.timestamp>=1617228000000 && student.timestamp<=1619906399000)
+return student
+})
+
+//Maj
+this.$nuxt.$store.state.student.students.filter(student=>{
+
+if(student.timestamp>=1619820000000 && student.timestamp<=1622498399000)
+return student
+})
+
+//Juni
+this.$nuxt.$store.state.student.students.filter(student=>{
+
+if(student.timestamp>=1622498400000 && student.timestamp<=1625090399000)
+return student
+})
+
+//Juli
+this.$nuxt.$store.state.student.students.filter(student=>{
+
+if(student.timestamp>=1625090400000 && student.timestamp<=1627768799000)
+return student
+})
+
+//Avgust
+this.$nuxt.$store.state.student.students.filter(student=>{
+
+if(student.timestamp>=1627768800000)
+return student
+})
